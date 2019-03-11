@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="BouncingBallGame.cpp" />
+    <ClCompile Include="Paddle.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Score.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="BouncingBallGame.h" />
+    <ClInclude Include="Paddle.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{1980f3b4-a622-4ced-9a34-efff327f9327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{7298d7b5-47d0-4678-9354-70daa415e76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Fonts">
+      <UniqueIdentifier>{fa18c64f-0bdb-49c7-be05-5a7b738e2a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Sounds">
+      <UniqueIdentifier>{0fb8f06d-f9cd-4fbf-8a29-51ddd48b2853}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Content\Fonts\Arial_36_Regular.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Content\Sounds\Destruction.wav">
+      <Filter>Content\Sounds</Filter>
+    </Media>
+    <Media Include="Content\Sounds\menu-ok.wav">
+      <Filter>Content\Sounds</Filter>
+    </Media>
+    <Media Include="Content\Sounds\pongblip.wav">
+      <Filter>Content\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\Ball.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Paddle.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
